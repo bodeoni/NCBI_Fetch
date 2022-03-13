@@ -7,7 +7,7 @@ drive.mount('/content/gdrive')
 
 # Obtain fasta summaries
 
-Entrez.email = "bodeoni@yahoo.com"  # Email
+Entrez.email = ""  # Email
 
 #Perform intial search using history and save results in file
 search_handle = Entrez.esearch(db="nucleotide", term="(rbcl AND plants[filter] AND biomol_genomic[PROP] AND is_nuccore[filter])", 
